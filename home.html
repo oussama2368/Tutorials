@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <title>post</title>
+</head>
+
+<body class="d-flex vw-100 vh-100 align-items-center justify-content-center">
+    <div>
+        <div>
+            <button class="btn btn-outline-dark" style="width: 200px;" onclick="post()">  Post</button>
+            <button class="btn btn-outline-secondary" style="width: 200px;" onclick="comment()">  Comment</button><br></div>
+        <div>
+            <button class="btn btn-outline-primary" style="width: 200px;" onclick="post()"> New Post</button>
+            <button class="btn btn-outline-danger" style="width: 200px;" onclick="comment()"> New Comment</button></div>
+    </div>
+    <!-- <div class="btn btn-outline-primary" style="width: 200px;" onclick="post()">New post</div> -->
+    <!-- <div class="btn btn-outline-danger" style="width: 200px;">New Comment</div> -->
+
+
+    <script>
+        function post() {
+            window.location.href = "post.html";
+        }
+
+        function comment() {
+            window.location.href = "comment.html";
+        }
+    </script>
+
+    <!-- <div class="form login">a</div> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

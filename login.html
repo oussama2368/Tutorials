@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        height: 200px;
+        width: 300px;
+        margin-left: 50%;
+        left: 50%;
+        margin-top: 25%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: #f6f2ed;
+        border-radius: 15%;
+    }
+    
+    .login {
+        width: 90px;
+        height: 30px;
+        margin-left: 35%;
+        background: linear-gradient(100deg, #2980b9, #8e44ad);
+    }
+    
+    input {
+        height: 30px;
+        margin-top: 7%;
+        margin-left: 22%;
+        border-radius: 10%;
+        border: 2px solid #2980b9;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(90deg, #2980b9, #8e44ad);
+    }
+</style>
+
+
+<body>
+    <div class="box">
+        <form action="b1.php" method="POST">
+            <input type="text" placeholder="user name" name="email" required>
+            <input type="password" placeholder="Password" name="password" required>
+            <input type="submit" value="Login" class="login">
+        </form>
+        <a href="registration.html"><input type="submit" value="Ceation New Compte" class=""></a>
+    </div>
+</body>
+
+</html>
